@@ -44,7 +44,7 @@ const Login = () => {
               <li>Name: {name}</li>
               <li>Age : {age}</li>
               <li>Height : {height}</li>
-              <li>Power : {superp}</li>
+              <li>Address : {superp}</li>
             </ul>
           )}
 

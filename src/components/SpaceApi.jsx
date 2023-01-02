@@ -20,7 +20,7 @@ const SpaceApi = () => {
   return (
     <div>
       <h1 className="text-6xl text-center mb-3">Space News</h1>
-      <div className=" bg-gray-500 w-[300px] h-[500px] mx-auto overflow-y-scroll rounded-3xl  flex flex-col  mb-5">
+      <div className="text-center bg-gray-500 w-[300px] h-[500px] mx-auto overflow-y-scroll rounded-3xl  flex flex-col  mb-5">
         {newsList.map((item, key) => {
           return (
             <div
