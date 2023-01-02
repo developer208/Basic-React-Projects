@@ -14,6 +14,6 @@ export const Questions = [
         optionB:"Nagpur",
         optionC:"Pune",
         optionD:"Aurangabad",
-        ans:"optionB"
+        ans:"optionA"
     }
 ]
