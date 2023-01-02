@@ -25,7 +25,7 @@ const VideoGame = () => {
   return (
     <div className="flex items-center flex-col">
       <h1 className="text-6xl text-center">Video Game Api</h1>
-      <div className="text-center bg-gray-500 w-[100%] min-h-[400px] rounded-3xl flex flex-col mt-5">
+      <div className="text-center bg-gray-500 w-[350px] min-h-[400px] rounded-3xl flex flex-col mt-5">
         <div className="flex flex-col items-center space-y-2 my-5 ">
           <h1 className="text-black font-bold text-xl">Search For A Game</h1>
           <input
@@ -41,11 +41,11 @@ const VideoGame = () => {
             Search Game Title
           </button>
 
-          <div className="w-[95%] h-[200px] bg-slate-900 flex rounded-md  ">
+          <div className="w-[95%] h-[100%] bg-slate-900 flex rounded-md  ">
             {searchGames.map((game, key) => {
               return (
-                <div className="w-[100%]" key={key}>
-                  <div className="w-[85%] mx-auto my-5  rounded-md bg-white  h-[150px]">
+                <div className="w-[100%] h-[100%]" key={key}>
+                  <div className="w-[85%] mx-auto my-5  rounded-md bg-white  h-[100%]">
                     <h1 className="text-black font-bold">{game.external}</h1>
                     <div className="w-[100%] my-2">
                       <img className="mx-auto" src={game.thumb} alt="" />
